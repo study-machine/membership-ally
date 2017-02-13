@@ -1,0 +1,134 @@
+.content-container{
+    color: #555;
+}
+.navbar{
+    font-size: 18px;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+.carousel-inner .item{
+    width: 100%;
+}
+.banner-image{
+    width: 100%;
+}
+
+.page-mid-title h2{
+    text-align: center;
+}
+
+
+.recommend-box{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
+.recommemd-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 240px;
+}
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    height: 100px;
+    padding: 30px 0;
+}
+
+.footer p{
+    text-align: center;
+}
+
+/*mall*/
+.mall-category-box{
+    padding-right: 0;
+}
+.mall-category-box .list-group-item{
+    padding: 13px;
+}
+/*end of mall*/
+
+/*usercenter*/
+.portrait-bar{
+    background: #333 url(../img/bgc.jpg) repeat-x fixed top;;
+    color: #fff;
+    padding: 30px;
+}
+.portrait-bar .portrait-box{
+    text-align: center;
+}
+.portrait-bar .username{
+    font-size: 30px;
+    margin: 30px;
+}
+.portrait-bar .member{
+    margin: 30px;
+}
+.portrait-bar .member-crown{
+    width: 30px;
+    height: 30px;
+}
+.portrait-bar .member-level{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.portrait-bar .member-text{
+    font-size: 20px;
+}
+.portrait-bar .credit-box{
+    margin: 50px
+}
+.portrait-bar .credit-amount{
+    color: #FFFF66;
+    font-size: 24px;
+
+}
+.portrait-bar .credit-text{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/*end of usercenter*/
+
+.login-box{
+    margin: 50px 0;
+}
+.login-form{
+    padding: 20px;
+}
+
+.credit-rules{
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px; 
+}
+.credit-rules h4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.credit-rules li{
+    font-size: 16px;
+}
+.membergrade-table{
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+.membergrade-table h4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.membergrade-table th{
+    text-align: center;
+}

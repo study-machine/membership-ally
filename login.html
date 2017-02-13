@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录-鹏博士会员联盟</title>
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="container-fluid nav-container">
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid navbar-container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="./img/doctorpeng.png">
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class=""><a href="./index.html">首页</a></li>
+                        <li><a href="./mall.html">积分商城</a></li>
+                        <li><a href="">新闻中心</a></li>
+                        <li><a href="">活动专区</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="请输入关键词">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">购物车</a></li>
+                        <li><a href="#"> 消息 <span class="badge">3</span></a></li>
+<!--                         <li class="dropdown usermenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true"
+                               aria-expanded="false">唐纳德-川普<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./usercenter.html">个人中心</a></li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">积分查询</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">退出登录</a></li>
+                            </ul>
+                        </li> -->
+                        <button type="button" class="btn btn-primary" href="./login.html">登录</button>
+                        <button type="button" class="btn btn-info">注册</button>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+<div class="container-fluid content-container">
+<div class="row login">
+    <div class="col-md-5">
+        <img src="./img/manypeople.png" alt="" class="img-responsive">
+    </div>
+    <div class="col-md-7">
+        <div class="login-box">
+            <form class="login-form">
+                    <legend>登录鹏博士联盟会员</legend>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">请输入手机号</label>
+                      <input class="form-control" id="exampleInputEmail1" placeholder="请输入手机号" type="mobile">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">密码</label>
+                      <input class="form-control" id="exampleInputPassword1" placeholder="请输入密码" type="password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">登录</button>
+            </form>
+            <div class="col-md-6"><a href="">注册联盟会员账号</a></div>        
+            <div class="col-md-6"><a href="">忘记密码？</a></div>            
+        </div>
+        
+    </div> <!-- end of col-md-7 -->
+</div>
+<hr> 
+<div class="row credit-rules-and-membergrade">
+<div class="col-md-4">
+    <div class="credit-rules">
+       <h4>联盟积分规则</h4>
+       <ol>
+           <li>联盟内平台消费1元＝100联盟积分</li>
+           <li>联盟内多个平台消费累加计算积分增长</li>
+           <li>积分会被花费消耗，等级不会消耗</li>
+           <li>联盟积分可以在商城购买商品和服务</li>
+           <li>联盟积分不可兑换为人民币</li>
+       </ol> 
+    </div> 
+</div>
+ 
+
+<div class="col-md-8">
+    <div class="membergrade-table">
+        <h4>联盟会员特权</h4>
+        <table class="table table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>联盟会员等级</th>
+                    <th>消费历史(员)</th>
+                    <th>商城折扣</th>
+                    <th>宽带特权</th>
+                    <th>运费减免</th>
+                    <th>会员活动</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>不是会员</th>
+                    <td>0</td>
+                    <td>无</td>
+                    <td>无</td>
+                    <td>无</td>
+                    <td>无</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>>=100</td>
+                    <td>9.5折</td>
+                    <td>可欠费1月</td>
+                    <td>无</td>
+                    <td>无</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>>=100</td>
+                    <td>9折</td>
+                    <td>可欠费2月</td>
+                    <td>国内减20%</td>
+                    <td>无</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>>=500</td>
+                    <td>8.5折</td>
+                    <td>可欠费3个月</td>
+                    <td>国内运费减50%</td>
+                    <td>定期组织聚会</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>>=1000</td>
+                    <td>8折</td>
+                    <td>可欠费4月</td>
+                    <td>国内减80%</td>
+                    <td>定期组织周边游</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td>>=2000</td>
+                    <td>7.5折</td>
+                    <td>可欠费5个月</td>
+                    <td>国内免运费</td>
+                    <td>定期组织国内旅游</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td>>=5000</td>
+                    <td>7折</td>
+                    <td>可欠费6个月</td>
+                    <td>运费全免</td>
+                    <td>定期组织出国游玩</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>        
+</div>    
+</div>   
+
+
+
+
+
+
+
+</div>
+
+<div class="container-fluid">
+    <div class="footer row">
+        <div class="col-md-12">
+            <div class="license"><p>经营许可证 沪ICP备14054062号</p></div>
+            <div class="copyright"><p>Copyright © 2015 Domyshop 保留所有权利</p></div>  
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
