@@ -25,6 +25,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     margin: 10px;
+    padding: 20px;
 }
 .recommemd-image{
     display: block;
@@ -94,8 +95,22 @@
     font-size: 20px;
 }
 
+.grade-progress{
+    margin: 20px 0;
+}
+
+.usercenter-left-part{
+    margin: 30px 0;
+}
+.usercenter-left-part .panel-heading{
+    font-size: 20px;
+}
+.usercenter-left-part li{
+    font-size: 18px;
+}
 /*end of usercenter*/
 
+/*login*/
 .login-box{
     margin: 50px 0;
 }
@@ -132,3 +147,27 @@
 .membergrade-table th{
     text-align: center;
 }
+
+/*end of login*/
+
+/*message*/
+.nav-tabs{
+    margin: 20px;
+}
+.message-box{
+    /*height: 60px;*/
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+
+}
+.media-object{
+    height: 64px;
+    width: 64px;
+}
+/*end of message*/
+
+
+
+
+
