@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>商品分类-鹏博士会员联盟</title>
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="container-fluid nav-container">
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid navbar-container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="./img/doctorpeng.png">
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class=""><a href="./index.html">首页</a></li>
+                        <li><a href="./mall.html">积分商城</a></li>
+                        <li><a href="">新闻中心</a></li>
+                        <li><a href="">活动专区</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="请输入关键词">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./shoppingcart.html">购物车</a></li>
+                        <li><a href="./messages.html"> 消息 <span class="badge">3</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true"
+                               aria-expanded="false">特朗普<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./usercenter.html">个人中心</a></li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">积分查询</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">退出登录</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+<div class="container-fluid content-container">
+    <div class="row">
+        <div class="col-md-4">
+            <ol class="breadcrumb">
+              <li><a href="./index.html">主页</a></li>
+              <li><a href="./mall.html">商城</a></li>
+              <li class="active">电视盒子</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+          <div class="filterbox">
+            <div class="filtername">电视盒子</div>
+              <div class="filterclass">
+                <span class="filterclasstitle">品牌：</span>
+                <span class="active filterclassitem">不限</span>
+                <span class="filterclassitem">大麦</span>
+                <span class="filterclassitem">小麦</span>
+                <span class="filterclassitem">水稻</span>
+                <span class="filterclassitem">玉米</span>
+              </div>
+              <hr class="filterboxhr">
+              <div class="filterclass">
+                <span class="filterclasstitle">尺寸：</span>
+                <span class="active filterclassitem">不限</span>
+                <span class="filterclassitem">大号</span>
+                <span class="filterclassitem">中号</span>
+                <span class="filterclassitem">小号</span>
+              </div>
+              <hr class="filterboxhr">
+              <div class="filterclass">
+                <span class="filterclasstitle">积分：</span>
+                <span class="active filterclassitem">不限</span>
+                <span class="filterclassitem">0-1000</span>
+                <span class="filterclassitem">1000-2000</span>
+                <span class="filterclassitem">2000-5000</span>
+              </div>
+            </div>            
+        </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-10">
+    <div class="row">
+        <div class="col-md-12">
+          <div class="orderbox">
+            <span class="ordername">排序方式：</span>
+            <span class="orderitem">综合<span class="caret"></span></span>
+            <span class="orderitem">销量</span>
+            <span class="orderitem">积分额</span>
+          </div>            
+        </div>      
+    </div>
+
+    <div class="commoditygrid row">
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="commodity-box flexbox">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+            <button class="btn btn-danger commodity-addtocart">加入购物车</button>
+        </div>
+      </div>
+
+    </div>      
+    </div>
+    <div class="col-md-2">
+      <div class="hotcommodity">
+        <h5>热卖商品</h5>
+        <hr>
+        <div class="commodity-box">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+        </div>
+        <div class="commodity-box">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+        </div>
+        <div class="commodity-box">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+        </div>
+        <div class="commodity-box">
+            <img src="./media/hezi2.jpg" alt="" class="commodity-img">
+            <p class="commodity-title">大麦盒子大麦VIP会员</p>
+            <p class="commodity-price"><span>500</span>积分</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="paginationbox">
+    <ul class="pagination">
+      <li>
+        <a href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li>
+        <a href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>      
+    </div>
+
+
+
+</div>
+
+<div class="container-fluid">
+    <div class="footer row">
+        <div class="col-md-12">
+            <div class="license"><p>经营许可证 沪ICP备14054062号</p></div>
+            <div class="copyright"><p>Copyright © 2015 Domyshop 保留所有权利</p></div>  
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>

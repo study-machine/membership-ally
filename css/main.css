@@ -165,9 +165,160 @@
     height: 64px;
     width: 64px;
 }
+.messagerightbox{
+    color: #ccc;
+    width: 100px;
+    font-size: 16px;
+}
 /*end of message*/
 
+/*shopingcart-bar*/
+.shoppingcart{
+    margin: 20px;
+}
+.shoppingcart-bar{
+    background-color: #ccc;
+    font-size: 16px;
+}
+.shoppingcart-bar .text{
+    line-height: 40px;
+}
+.order-product img{
+    width: 64px;
+    height: 64px;
+}
+.order-product-name{
+    font-size: 18px;
+}
+.shoppingcart-item{
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+.price{
+    line-height: 60px;
+    color: orange;
+}
+.amount{
+    line-height: 60px;
+}
+.operate{
+    color: #ccc;
+    line-height: 60px;
+}
+.shoppingcart-total{
+    font-size: 18px;
+    text-align: right;
+    line-height: 50px;
+}
+.shoppingcart-total span{
+    color: red;
+    font-weight: bolder;
+}
+.shoppingcart-total button{
+    width: 100%;
+    height: 50px;
+}
+.commodity-box{
+    border: 1px dashed #ccc;
+    /*margin: 10px;*/
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.commodity-img{
+    width: 200px;
+    height: 200px;
+}
+.commodity-title{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.commodity-price{
+    font-size: 16px;
+}
+.commodity-price > span{
+    color: orange;
+}
+.guessyoulike{
+    margin: 20px;
+}
+/*end of shopingcart-bar*/
 
+/*mall-category*/
+.filterbox{
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.filtername{
+    background-color: #ccc;
+    padding: 10px;
 
+}
+.filterclass{
+    margin: 10px;
+    padding: 10px;
+}
+.filterclass > .active{
+    color: red;
+}
+.filterboxhr{
+    margin: 0 20px;
+    padding: 0;
 
+}
+.filterclasstitle{
+    font-weight: bold;
+}
+.filterclassitem{
+    margin: 0 10px;
+}
+.orderbox{
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.ordername{
+    font-weight: bold;
+}
+.orderitem{
+    margin: 0 10px;
+}
+.hotcommodity{
+    
+}
+.hotcommodity > h5{
+    color: red;
+    font-size: 16px;
+}
+.paginationbox{
+    text-align: center;
+}
+/*end of mall-category*/
+
+/*creditrecord*/
+.creditrecord-box{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 10px;
+}
+.creditrecord-box th{
+    text-align: center;
+}
+.creditrecord-box h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.creditrecord-box h2>span{
+    color: orange;
+    margin-left: 10px;
+    font-size: 26px;
+} 
+.checkcreditrules{
+    float: right;
+}
+/*end of creditrecord*/
 
